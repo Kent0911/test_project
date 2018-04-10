@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\kent kurosawa\documents\visual studio 2017\projects\test_project\test_project\source.cpp(5): warning C4091: 'extern ': 変数が何も宣言されていないときは、'SceneManager' の左辺を無視します。
+c:\users\kent kurosawa\documents\visual studio 2017\projects\test_project\test_project\source.cpp(6): warning C4091: 'extern ': 変数が何も宣言されていないときは、'Title' の左辺を無視します。
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\memory(994): error C2440: '<function-style-cast>': 'std::shared_ptr<Title>' から 'std::shared_ptr<Scene>' に変換できません。
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\memory(994): note: コンストラクターはソース型を持てません、またはコンストラクターのオーバーロードの解決があいまいです。
+  c:\users\kent kurosawa\documents\visual studio 2017\projects\test_project\test_project\source.cpp(45): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<Scene> &std::shared_ptr<Scene>::operator =<Title>(std::shared_ptr<Title> &&) noexcept' のリファレンスを確認してください
+  c:\users\kent kurosawa\documents\visual studio 2017\projects\test_project\test_project\source.cpp(45): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<Scene> &std::shared_ptr<Scene>::operator =<Title>(std::shared_ptr<Title> &&) noexcept' のリファレンスを確認してください
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\memory(994): error C2228: '.swap' の左側はクラス、構造体、共用体でなければなりません
